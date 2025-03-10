@@ -18,7 +18,7 @@ from flask_jwt_extended import unset_jwt_cookies
 from flask_jwt_extended import unset_jwt_cookies, get_jwt_identity
 
 
-API_KEY = "AIzaSyAPodOEll9D-3MCEk6d8VqmWU0_75WNGcw"
+API_KEY = "Your API key" #visionapikey
 
 app = Flask(__name__)
 app.config["SECRET_KEY"] = "my_super_secret_app_key"
